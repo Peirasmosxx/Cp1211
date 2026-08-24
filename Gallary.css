@@ -1,0 +1,306 @@
+Body {
+  background-color: #0D0E13;
+}
+a{
+  text-decoration: none;
+}
+
+.f1 {
+  Position: fixed;
+  Padding: 0px 30px 10px 30px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  border-style: none;
+  background-color: #0D0E13;
+  z-index: 100;
+  top: 0;
+  border-bottom: 4px solid black;
+}
+
+.Fleft{
+  Color: #C5CACC;
+  font-size: 2rem;
+}
+
+.Fmid {
+  word-spacing: 30px ;
+  font-size: 2rem;
+}
+.Fmid a {
+  text-decoration: none;
+  color: #C5CACC
+  
+}
+.aboutus{
+  word-spacing: 2px;
+}
+
+.Fright {
+  font-size: 2rem;
+  right: 100px;
+  word-spacing: 30px;
+}
+
+.Fright a {
+  text-decoration: none;
+  color: #C5CACC;
+}
+
+
+.img1 {
+  mask-image: linear-gradient(to left, black 10%, transparent 100%);
+  Width: 100%;
+  height: 400px;
+  margin-top: 115px;
+  position: relative;
+}
+
+.t1 {
+  font-size: 6rem;
+  color: #aaa;
+  top: 150px;
+  right: 1050px;
+  position: absolute;
+  font-weight: 500;
+}
+
+.t2 {
+  font-size: 2rem;
+  color: #aaa;
+  top: 300px;
+  right: 1050px;
+  position: absolute;
+  font-weight: 300;
+  text-transform: lowercase;
+  display: inline;
+  width: 30%;
+}
+.benefits{
+margin-bottom: 100px;
+}
+
+.benefit{
+  display: flex;
+  color: #C5CACC
+}
+
+.b1, .b2, .b3, .b4, .b5{
+  width: 330px;
+  height: 100px;
+  background-color: lab(0% 0 0);
+  padding: 0px 20px 20px 20px;
+}
+
+.b1, .b2, .b3, .b4 {
+  border-right: 3px solid hwb(0 30% 67%);
+}
+.text1{
+  font-size: 1.7rem ;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.text2{
+  font-size: 1.2rem;
+  margin-top: -10px;
+}
+
+.shopz{
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color:#C5CACC;
+  text-transform: uppercase;
+  margin-left: 40px;
+  
+}
+.category{
+  margin-top: -20px;
+  height: 300px;
+  
+  border-bottom: 3px solid hwb(0 21% 79%);
+}
+.images{
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+}
+.circle{
+  max-width: 200px;
+  border-radius: 50%;
+}
+.desc{
+  font-size: 1.5rem;
+  color:#C5CACC;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.label{
+  color:#C5CACC;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  
+}
+.rows, .rows1{
+  display: flex;
+  gap: 20px;
+}
+
+.rows1{
+  border-bottom: 2px solid #363636ff;
+  height: 550px;
+}
+.png{
+  background-color: #0D0E13;
+}
+
+
+.img{
+  height: 370px;
+  width: 370px;
+  padding: 10px;
+  
+}
+
+.text{
+  color: #C5CACC;
+  margin-left: 10px;
+}
+
+.bagn{
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #C5CACC;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.bagp{
+  margin-top: -30;
+  font-size: 2rem;
+  font-weight: 400;
+  
+}
+
+.al1{
+  display: flex;
+  gap: 60px;
+  margin-left: 20px;
+  margin-top: 6rem;
+  margin-bottom: 100px;
+  border-bottom: 2px solid #363636ff;
+  height: 500px;
+  
+}
+
+.im11{
+  height: 400px;
+  width: 770px;
+  position: relative;
+  mask-image: linear-gradient(220deg, black 40%, transparent 100%);
+}
+.intro{
+  position: absolute;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color:#C5CACC;
+  margin-left: 30px;
+  top: 167rem;
+}
+
+.links{
+  font-size:2rem;
+  text-decoration: none;
+  color: #7c8588;
+  margin-left: 20px;
+  
+}
+
+.f00t{
+  color:#C5CACC;
+  background-color: black;
+  margin-top: 200px
+}
+
+.f00ts{
+  display: flex;
+  padding: 50px;
+
+}
+
+.Foots1{
+  width: 75%;
+  margin-left: 50px;
+}
+.n4me{
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.quote{
+  font-size: 3rem;
+  margin-top: -70px;
+  color: #798388;
+}
+
+Foots2{
+  margin-right: 50;
+}
+
+
+
+.socials{
+  display: flex;
+  gap: 10px;
+  
+}
+.medias{
+  max-width: 40px;
+  border-radius: 50%;
+}
+.Help{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 150px;
+  margin-top: 90px
+}
+
+.h3lp{
+  font-size: 2rem;
+  line-height: 2px;
+  font-weight: 300
+}
+
+.cofy{
+  height: 100px;
+  
+  padding: 30px;
+  border-top: 4px solid hwb(0 13% 87%);
+}
+
+.copyyr{
+  font-size: 2rem;
+  text-transform:uppercase;
+  margin-top: -20px;
+  color: #393a3b
+  
+}
+
+i{
+  font-weight: 500;
+}
+a{
+  color:#C5CACC
+}
